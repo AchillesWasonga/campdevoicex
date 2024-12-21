@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between px-4 py-8">
         {/* Logo */}
         <div className="text-xl font-bold">
-          Camp de Voices
+          Campde Voices
         </div>
 
         {/* Desktop Menu */}

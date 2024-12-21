@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="bg-gray-800 text-white fixed bottom-0 w-full py-4">
       <div className="container mx-auto flex items-center justify-between px-4">
         {/* Copyright Text */}
-        <p className="text-sm">&copy; Camp de Voices 2024. All rights reserved.</p>
+        <p className="text-sm">&copy; Campde Voices 2024. All rights reserved.</p>
 
         {/* Social Media Icons */}
         <div className="flex space-x-4">
