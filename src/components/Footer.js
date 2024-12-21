@@ -1,0 +1,66 @@
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faTwitter,
+  faInstagram,
+  faLinkedin,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
+
+const Footer = () => {
+  return (
+    <footer className="bg-gray-800 text-white fixed bottom-0 w-full py-4">
+      <div className="container mx-auto flex items-center justify-between px-4">
+        {/* Copyright Text */}
+        <p className="text-sm">&copy; Camp de Voices 2024. All rights reserved.</p>
+
+        {/* Social Media Icons */}
+        <div className="flex space-x-4">
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-red-500"
+          >
+            <FontAwesomeIcon icon={faYoutube} size="lg" />
+          </a>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-400"
+          >
+            <FontAwesomeIcon icon={faTwitter} size="lg" />
+          </a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-pink-500"
+          >
+            <FontAwesomeIcon icon={faInstagram} size="lg" />
+          </a>
+          <a
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-600"
+          >
+            <FontAwesomeIcon icon={faLinkedin} size="lg" />
+          </a>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-500"
+          >
+            <FontAwesomeIcon icon={faFacebook} size="lg" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
