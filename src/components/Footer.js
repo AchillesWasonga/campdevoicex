@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faYoutube,
-  faTwitter,
+  faX,
   faInstagram,
   faLinkedin,
   faFacebook,
@@ -18,7 +18,7 @@ const Footer = () => {
         {/* Social Media Icons */}
         <div className="flex space-x-4">
           <a
-            href="https://www.youtube.com"
+            href="https://www.youtube.com/channel/UCzeoGX8y2htbPBYMI2B_VQg"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-red-500"
@@ -26,15 +26,15 @@ const Footer = () => {
             <FontAwesomeIcon icon={faYoutube} size="lg" />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/i/flow/login?redirect_after_login=%2Fcampdevoices"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400"
           >
-            <FontAwesomeIcon icon={faTwitter} size="lg" />
+            <FontAwesomeIcon icon={faX} size="lg" />
           </a>
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/campdevoices/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-500"
@@ -42,7 +42,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faInstagram} size="lg" />
           </a>
           <a
-            href="https://www.linkedin.com"
+            href="https://ke.linkedin.com/company/campdevoices"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600"
@@ -50,7 +50,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedin} size="lg" />
           </a>
           <a
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/CampdeVoices/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-500"
