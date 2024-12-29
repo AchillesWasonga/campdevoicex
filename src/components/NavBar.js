@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 text-white">
       <div className="container mx-auto flex items-center justify-between px-4 py-8">
-        {/* Logo */}
+        {"src/components/logodesigncamp.jpg"}
         <div className="text-xl font-bold">
           Campde Voices
         </div>
