@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faYoutube,
-  faX,
+  faTwitter, // Replace "faX" with "faTwitter" for compatibility
   faInstagram,
   faLinkedin,
   faFacebook,
@@ -26,12 +26,12 @@ const Footer = () => {
             <FontAwesomeIcon icon={faYoutube} size="lg" />
           </a>
           <a
-            href="https://x.com/i/flow/login?redirect_after_login=%2Fcampdevoices"
+            href="https://x.com/campdevoices"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400"
           >
-            <FontAwesomeIcon icon={faX} size="lg" />
+            <FontAwesomeIcon icon={faTwitter} size="lg" />
           </a>
           <a
             href="https://www.instagram.com/campdevoices/"
@@ -42,7 +42,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faInstagram} size="lg" />
           </a>
           <a
-            href="https://ke.linkedin.com/company/campdevoices"
+            href="https://www.linkedin.com/company/campdevoices/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600"

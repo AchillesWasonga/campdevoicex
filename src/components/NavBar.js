@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -6,30 +7,31 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 text-white">
       <div className="container mx-auto flex items-center justify-between px-4 py-8">
-        {/* Logo */}
-        <div className="text-xl font-bold">
-          Campde Voices
-        </div>
+        <div className="text-xl font-bold">Campde Voices</div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
-          <li><a href="#home" className="hover:text-blue-400">Home</a></li>
-          <li><a href="#about-us" className="hover:text-blue-400">About Us</a></li>
-          <li className="relative group">
-            <a href="#programs" className="hover:text-blue-400">Programs</a>
-            {/* Dropdown */}
-            <ul className="absolute left-0 hidden bg-gray-700 group-hover:block mt-2 rounded-md shadow-lg">
-              <li><a href="#freshy-shuleni" className="block px-4 py-2 hover:bg-gray-600">Tuko Freshy Shuleni</a></li>
-              <li><a href="#freshy-mtaani" className="block px-4 py-2 hover:bg-gray-600">Tuko Freshy Mtaani</a></li>
-              <li><a href="#climate" className="block px-4 py-2 hover:bg-gray-600">Changamkia Climate</a></li>
-              <li><a href="#leadership" className="block px-4 py-2 hover:bg-gray-600">Leadership Exchange Experience</a></li>
-              <li><a href="#training-trainers" className="block px-4 py-2 hover:bg-gray-600">Training Trainers</a></li>
-            </ul>
+          <li>
+            <Link to="/" className="hover:text-blue-400">Home</Link>
           </li>
-          <li><a href="#team" className="hover:text-blue-400">Our Team</a></li>
-          <li><a href="#testimonials" className="hover:text-blue-400">Testimonials</a></li>
-          <li><a href="#articles" className="hover:text-blue-400">Articles</a></li>
-          <li><a href="#contact-us" className="hover:text-blue-400">Contact Us</a></li>
+          <li>
+            <Link to="/about" className="hover:text-blue-400">About Us</Link>
+          </li>
+          <li>
+            <Link to="/programs" className="hover:text-blue-400">Programs</Link>
+          </li>
+          <li>
+            <Link to="/team" className="hover:text-blue-400">Our Team</Link>
+          </li>
+          <li>
+            <Link to="/testimonials" className="hover:text-blue-400">Testimonials</Link>
+          </li>
+          <li>
+            <Link to="/articles" className="hover:text-blue-400">Articles</Link>
+          </li>
+          <li>
+            <Link to="/contact" className="hover:text-blue-400">Contact Us</Link>
+          </li>
         </ul>
 
         {/* Mobile Menu Button */}
@@ -44,24 +46,27 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isMenuOpen && (
         <ul className="md:hidden bg-gray-700 text-white space-y-2 px-4 py-2">
-          <li><a href="#home" className="block hover:bg-gray-600 p-2">Home</a></li>
-          <li><a href="#about-us" className="block hover:bg-gray-600 p-2">About Us</a></li>
           <li>
-            <details className="hover:bg-gray-600 p-2">
-              <summary className="cursor-pointer">Programs</summary>
-              <ul className="ml-4 space-y-1">
-                <li><a href="#freshy-shuleni" className="block hover:bg-gray-600 p-2">Tuko Freshy Shuleni</a></li>
-                <li><a href="#freshy-mtaani" className="block hover:bg-gray-600 p-2">Tuko Freshy Mtaani</a></li>
-                <li><a href="#climate" className="block hover:bg-gray-600 p-2">Changamkia Climate</a></li>
-                <li><a href="#leadership" className="block hover:bg-gray-600 p-2">Leadership Exchange Experience</a></li>
-                <li><a href="#training-trainers" className="block hover:bg-gray-600 p-2">Training Trainers</a></li>
-              </ul>
-            </details>
+            <Link to="/" className="block hover:bg-gray-600 p-2">Home</Link>
           </li>
-          <li><a href="#team" className="block hover:bg-gray-600 p-2">Our Team</a></li>
-          <li><a href="#testimonials" className="block hover:bg-gray-600 p-2">Testimonials</a></li>
-          <li><a href="#articles" className="block hover:bg-gray-600 p-2">Articles</a></li>
-          <li><a href="#contact-us" className="block hover:bg-gray-600 p-2">Contact Us</a></li>
+          <li>
+            <Link to="/about" className="block hover:bg-gray-600 p-2">About Us</Link>
+          </li>
+          <li>
+            <Link to="/programs" className="block hover:bg-gray-600 p-2">Programs</Link>
+          </li>
+          <li>
+            <Link to="/team" className="block hover:bg-gray-600 p-2">Our Team</Link>
+          </li>
+          <li>
+            <Link to="/testimonials" className="block hover:bg-gray-600 p-2">Testimonials</Link>
+          </li>
+          <li>
+            <Link to="/articles" className="block hover:bg-gray-600 p-2">Articles</Link>
+          </li>
+          <li>
+            <Link to="/contact" className="block hover:bg-gray-600 p-2">Contact Us</Link>
+          </li>
         </ul>
       )}
     </nav>
