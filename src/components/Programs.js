@@ -4,7 +4,7 @@ const Programs = () => {
   const programs = [
     {
       title: "Tuko Freshy High School Edition",
-      image: "path/to/highschool-logo.jpg", // Replace with the actual path
+      image: "/tukofreshipic.jpg", // Replace with the actual path
       description: `Tuko Freshy is a debate programme created for young people, by young people, to debate and propose solutions to challenges facing young people within their communities, nationally, and globally.`,
       additionalInfo: [
         "Launch debates in high schools across Kenya.",
@@ -14,22 +14,22 @@ const Programs = () => {
     },
     {
       title: "Tuko Freshy Community Edition",
-      image: "path/to/community-logo.jpg", // Replace with the actual path
+      image: "/tukofreshipic.jpg", // Replace with the actual path
       description: `The Community Edition focuses on engaging young people within local communities, encouraging discourse on local issues and finding solutions collaboratively.`,
     },
     {
       title: "Changamkia Climate",
-      image: "path/to/climate-logo.jpg", // Replace with the actual path
+      image: "/changclim.JPG", // Replace with the actual path
       description: `A program dedicated to raising awareness and finding actionable solutions for climate change, involving young voices to create a sustainable future.`,
     },
     {
       title: "Leadership Exchange Experience",
-      image: "path/to/leadership-logo.jpg", // Replace with the actual path
+      image: "/leadship.jpg", // Replace with the actual path
       description: `This program is designed to inspire and educate young leaders through interactive workshops, networking, and practical leadership experiences.`,
     },
     {
       title: "Training Trainers",
-      image: "path/to/trainers-logo.jpg", // Replace with the actual path
+      image: "/logodesign-landscape.png", // Replace with the actual path
       description: `Empowering trainers with the skills and knowledge they need to mentor and guide the next generation of young leaders and innovators.`,
     },
   ];
