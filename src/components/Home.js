@@ -10,13 +10,17 @@ const Home = () => {
 
       {/* Description */}
       <p className="mt-4 text-center">
-        Campde Voices is a platform empowering young voices to lead discussions, debate solutions, and inspire change globally.
+        Campde Voices is a platform empowering young voices to lead discussions, debate solutions and inspire change globally.
+      </p>
+
+      <p className="mt-4 text-center">
+        Our latest event is the Twende Rwanda Program. Please click the link below the Picture to CHECK IT OUT.
       </p>
 
       {/* Image */}
       <div className="flex justify-center mt-8">
         <img
-          src="/twenderwa.jpeg" // Replace with the actual image path
+          src="/twenderwa.jpeg" // image path
           alt="Campde Voices Welcome"
           className="rounded-lg shadow-md w-3/4 sm:w-1/2"
         />

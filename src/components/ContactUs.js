@@ -5,7 +5,7 @@ const ContactUs = () => {
     <div className="p-8 bg-gray-100">
       <h1 className="text-4xl font-bold text-center">Contact Us</h1>
       <p className="mt-4">
-        Have questions or want to get involved? Reach out to us at <strong>info@campdevoices.com</strong>.
+        Have questions or want to get involved? Reach out to us at <strong>campdevoices@gmail.com</strong>.
       </p>
     </div>
   );
