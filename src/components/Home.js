@@ -10,7 +10,7 @@ const Home = () => {
 
       {/* Description */}
       <p className="mt-4 text-center">
-        Campde Voices is a platform empowering young voices to lead discussions, debate solutions and inspire change globally.
+        Campde Voices is a platform empowering young voices to lead discussions, debate solutions and inspire change in Kenya and globally.
       </p>
 
       <p className="mt-4 text-center">
